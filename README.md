@@ -13,7 +13,7 @@ Output Format-> For all 𝑖 from 0 to 𝑘 − 1, output an index 0 ≤ 𝑗 �
 𝑎𝑗 = 𝑏𝑖) or −1 if there is no such index.
 
 
-EXAMPLE 
+EXAMPLE:-
 Input:
 7
 2 4 4 4 7 7 9
