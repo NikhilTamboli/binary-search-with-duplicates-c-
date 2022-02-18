@@ -21,13 +21,10 @@ int binary_search(const vector<int> &a, int x) {
           } else if(a[mid-1]==x){
               right = mid;
           }
-          //std::cout<<"here1"<<'\n';
       } else if(a[mid]>x){
           right = mid-1;
-          //std::cout<<"here2"<<'\n';
       } else if(a[mid]<x){
           left = mid+1; 
-          //std::cout<<"here3"<<'\n';
       } 
   }
     return -1;
